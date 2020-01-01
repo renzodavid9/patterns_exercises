@@ -13,11 +13,8 @@ class Main {
     } catch (error) {
       console.error(error);
     }
-
   }
 }
-
-
 
 const main = new Main(strategyContext);
 main.run();
